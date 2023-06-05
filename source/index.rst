@@ -23,6 +23,20 @@ Facts database <https://world.openfoodfacts.org/>`_ and offers a *simple* and
 #. hi
 #. hi
 
+.. math::
+
+   (a + b)^2 = a^2 + 2ab + b^2
+
+   (a - b)^2 = a^2 - 2ab + b^2
+
+.. math::
+   e^{i\pi} + 1 = 0
+   :label: euler
+
+
+Euler's identity, equation :eq:`euler`, was elected one of the most
+beautiful mathematical formulas.
+
 term (up to a line of text)
    Definition of the term, which must be indented
 
