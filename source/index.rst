@@ -33,9 +33,14 @@ Facts database <https://world.openfoodfacts.org/>`_ and offers a *simple* and
    e^{i\pi} + 1 = 0
    :label: euler
 
+.. math::
+   y = mx + b
+   :name: slope
 
 Euler's identity, equation :eq:`euler`, was elected one of the most
 beautiful mathematical formulas.
+
+Calling my slope formula from the same file, :ref:`Slope <slope>`
 
 term (up to a line of text)
    Definition of the term, which must be indented
