@@ -1,15 +1,12 @@
-.. Lumache documentation master file, created by
+.. FDS online documentation master file, created by
    sphinx-quickstart on Thu May 25 10:07:05 2023.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Lumache's documentation!
-===================================
+Welcome to FDS online documentation!
+====================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers that
-creates recipes mixing random ingredients.  It pulls data from the `Open Food
-Facts database <https://world.openfoodfacts.org/>`_ and offers a *simple* and
-*intuitive* API.
+**Fire Dynamics Simulator (FDS)** is a computational fluid dynamics (CFD) model of fire-driven fluid flow.
 
 * Hi this should be a bullet
 * This as well but it will have

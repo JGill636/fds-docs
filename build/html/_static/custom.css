@@ -2,7 +2,7 @@
 
   CHANGES FOR CUSTOM.CSS SHOULD BE MADE INSIDE CUSTOM.SCSS
 
-
+  
 
   Requirements:
 
@@ -271,8 +271,4 @@ a:visited {
 .btn-neutral:active {
   padding: 0.375rem 0.75rem;
   box-shadow: unset;
-}
-
-.eqno {
-    float: right;
 }
