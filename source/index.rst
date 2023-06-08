@@ -21,7 +21,6 @@ Welcome to FDS online documentation!
 #. hi
 
 .. math::
-
    (a + b)^2 = a^2 + 2ab + b^2
 
    (a - b)^2 = a^2 - 2ab + b^2
@@ -33,6 +32,20 @@ Welcome to FDS online documentation!
 .. math::
    y = mx + b
    :name: slope
+
+.. math:: (a + b)^2  &=  (a + b)(a + b) \\&=  a^2 + 2ab + b^2
+   :label: eq2
+
+.. math:: (a + b)^2 = a^2 + 2ab + b^2
+   :label: eq3
+
+.. math::
+   :label: eq4
+
+   \begin{eqnarray}
+      y    & = & ax^2 + bx + c \\
+      f(x) & = & x^2 + 2xy + y^2
+   \end{eqnarray}
 
 Euler's identity, equation :eq:`euler`, was elected one of the most
 beautiful mathematical formulas.
@@ -47,6 +60,22 @@ term (up to a line of text)
 next term
    Description.
 
+**Adding more content to just to fill in the page**
+
+**Inline text math example:**
+In physics, the mass-energy equivalence is stated 
+by the equation :math:`E=mc^2`, discovered in 1905 by Albert Einstein.
+
+**more inline text math example:**
+Subscripts in math mode are written as $a_b$ and superscripts are written as $a^b$. These can be combined and nested to write expressions such as
+:math:`T^{i_1 i_2 \dots i_p}_{j_1 j_2 \dots j_q}`, some text after
+
+The needle is composed of two materials—’dry pine’ and ’MOISTURE’. Following the convention used
+in forestry, the moisture content is expressed via the MOISTURE_FRACTION, which is the mass of moisture
+divided by the mass of dry vegetation. Do not confuse this with the mass fraction of moisture, Ym, which is
+related to the moisture fraction, M, via
+
+adding some text
 .. note::
 
    This project is under active development.
