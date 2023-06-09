@@ -102,6 +102,7 @@ Contents
 
 .. toctree::
    :numbered:
+   :maxdepth: 2
 
    usage
    test1
