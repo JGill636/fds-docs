@@ -26,15 +26,16 @@ exclude_patterns = []
 # Make sure the target is unique
 autosectionlabel_prefix_document = True
 
-# # Enable numref
-# numfig = True
-
+# Enable numref
+numfig = True
+math_numfig = True
+numfig_secnum_depth = 1
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html #options-for-html-output
 
-html_theme = 'renku'
+html_theme = 'sphinx_rtd_theme'
 html_static_path = []
-html_css_files = ['custom.css']
+# html_css_files = ['custom.css']
 
 

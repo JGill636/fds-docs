@@ -15,7 +15,7 @@ Welcome to FDS online documentation!
 1. numbered
 2. list
 
-
+Does this work? :eq:`euler2`
 
 #. hi
 #. hi
@@ -26,18 +26,24 @@ Welcome to FDS online documentation!
    (a - b)^2 = a^2 - 2ab + b^2
 
 .. math::
-   e^{i\pi} + 1 = 0
    :label: euler
 
-.. math::
-   y = mx + b
-   :name: slope
+   e^{i\pi} + 1 = 0
 
-.. math:: (a + b)^2  &=  (a + b)(a + b) \\&=  a^2 + 2ab + b^2
+.. math::
+   :label: slope
+
+   y = mx + b
+
+.. math::
    :label: eq2
 
-.. math:: (a + b)^2 = a^2 + 2ab + b^2
+   (a + b)^2  &=  (a + b)(a + b) \\&=  a^2 + 2ab + b^2
+
+.. math::
    :label: eq3
+
+   (a + b)^2 = a^2 + 2ab + b^2
 
 .. math::
    :label: eq4
@@ -47,10 +53,13 @@ Welcome to FDS online documentation!
       f(x) & = & x^2 + 2xy + y^2
    \end{eqnarray}
 
+New Section
+===========
+
 Euler's identity, equation :eq:`euler`, was elected one of the most
 beautiful mathematical formulas.
 
-Calling my slope formula from the same file, :ref:`Slope <slope>`
+Calling my slope formula from the same file, :eq:`Slope <slope>`
 
 term (up to a line of text)
    Definition of the term, which must be indented
@@ -80,11 +89,6 @@ adding some text
 
    This project is under active development.
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-
 
 Indices and tables
 ==================
@@ -97,6 +101,7 @@ Contents
 --------
 
 .. toctree::
+   :numbered:
 
    usage
    test1
