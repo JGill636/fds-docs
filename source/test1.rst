@@ -1,4 +1,7 @@
-# This is my markdown test doc
+Test1
+=====
+
+This is my restructuredText test doc
 
 1. hi
 2. hi

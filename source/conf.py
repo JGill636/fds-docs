@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'FDS online docs'
-copyright = 'Public Domain'
+copyright = 'https://www.nist.gov/oism/copyrights'
 author = 'Jaskaran Gill'
 release = '0.1'
 
@@ -18,6 +18,7 @@ extensions = [
     'sphinx.ext.duration',
     'myst_parser',
     'sphinx.ext.autosectionlabel',
+    'sphinx.ext.extlinks',
 ]
 
 templates_path = ['_templates']
@@ -26,14 +27,15 @@ exclude_patterns = []
 # Make sure the target is unique
 autosectionlabel_prefix_document = True
 
-# # Enable numref
-# numfig = True
-
+# Enable numref
+numfig = True
+math_numfig = True
+numfig_secnum_depth = 1
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html #options-for-html-output
 
-html_theme = 'renku'
+html_theme = 'sphinx_rtd_theme'
 html_static_path = []
 html_css_files = ['custom.css']
 
