@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'FDS online docs'
-copyright = 'Public Domain'
+copyright = 'https://www.nist.gov/oism/copyrights'
 author = 'Jaskaran Gill'
 release = '0.1'
 
@@ -18,6 +18,7 @@ extensions = [
     'sphinx.ext.duration',
     'myst_parser',
     'sphinx.ext.autosectionlabel',
+    'sphinx.ext.extlinks',
 ]
 
 templates_path = ['_templates']
@@ -36,6 +37,6 @@ numfig_secnum_depth = 1
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = []
-# html_css_files = ['custom.css']
+html_css_files = ['custom.css']
 
 
