@@ -37,6 +37,9 @@ numfig_secnum_depth = 1
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = []
-html_css_files = ['custom.css']
+html_css_files = [
+    'custom.css',
+    'css/style.css' 
+]
 
 

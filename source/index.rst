@@ -17,6 +17,9 @@ Welcome to FDS online documentation!
 
 Does this work? :eq:`euler2`
 
+.. contents:: Table of Contents
+   
+
 #. hi
 #. hi
 
