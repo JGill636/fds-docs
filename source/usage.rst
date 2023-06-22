@@ -16,6 +16,8 @@ What about this equation :eq:`eq3`
 
 Final equation :eq:`eq4`
 
+
+
 .. code-block:: console
 
    (.venv) $ pip install lumache
@@ -41,5 +43,16 @@ beautiful mathematical formulas.
 
    (a + b)^2  &=  (a + b)(a + b) \\&=  a^2 + 2ab + b^2
 
+.. _coriolis_vector:
+.. figure:: Figures/Coriolis_vector.png
+   :scale: 20 %
+   :align: center
+   :alt: map to buried treasure
+
+   This is the caption of the figure (a simple paragraph).
+   
+
 
 Does this work? :eq:`euler2`
+
+At :numref:`coriolis_vector` you can see...
