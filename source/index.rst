@@ -19,9 +19,9 @@ Does this work? :eq:`euler2`
 
 At :numref:`coriolis_vector` you can see...
 
+Referencing from a different page :numref:`color-table` some text after
 
 .. contents:: Table of Contents
-   
 
 #. hi
 #. hi
@@ -113,3 +113,4 @@ Contents
 
    usage
    test1
+   table
