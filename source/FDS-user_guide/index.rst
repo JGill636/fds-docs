@@ -3,9 +3,6 @@
 FDS User Guide
 ===============
 
-Part I: The Basics of FDS
--------------------------
-
 .. toctree::
     :maxdepth: 2
     :numbered:
