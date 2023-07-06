@@ -8,4 +8,4 @@ FDS User Guide
     :numbered:
 
     basics_of_fds/introduction
-
+    basics_of_fds/getting_started

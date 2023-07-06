@@ -19,6 +19,7 @@ extensions = [
     'myst_parser',
     'sphinx.ext.autosectionlabel',
     'sphinx.ext.extlinks',
+    'sphinx_rtd_theme'
 ]
 
 templates_path = ['_templates']
